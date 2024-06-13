@@ -1,13 +1,13 @@
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 class Model:
-    """Model class for Decision Tree."""
+    """Model class for Random Forest."""
 
-    name = "DT"
+    name = "RF"
     version = 0.1
 
-    def __init__(self, max_depth=3):
-        self.model = DecisionTreeClassifier(max_depth=max_depth,
+    def __init__(self):
+        self.model = RandomForestClassifier(n_estimators=10,
                 random_state=42)
 
     def fit(self, X, y):

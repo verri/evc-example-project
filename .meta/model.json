@@ -1,5 +1,5 @@
 {
-  "name": "DT",
+  "name": "RF",
   "version": 0.1,
-  "description": "Model class for Decision Tree."
+  "description": "Model class for Random Forest."
 }
