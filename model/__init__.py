@@ -4,9 +4,9 @@ class Model:
     """Model class for Decision Tree."""
 
     name = "DT"
-    version = 0.1
+    version = 0.2
 
-    def __init__(self, max_depth=3):
+    def __init__(self, max_depth=4):
         self.model = DecisionTreeClassifier(max_depth=max_depth,
                 random_state=42)
 
