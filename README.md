@@ -7,12 +7,10 @@ versions of Machine Learning projects.
 
 Start a new virtual environment and install the requirements:
 
-TODO: move `auto` branch to `master` in `evc` repo.
-
 ```bash
 $ python -m venv env
 $ source env/bin/activate
-$ pip install  git+https://github.com/verri/evc@auto
+$ pip install  git+https://github.com/verri/evc@main
 $ pip install -r requirements.txt
 ```
 
@@ -22,7 +20,7 @@ Since evc is still under heavy development, you may need to update the library
 frequently.  To update the evc library, you can use the following command:
 
 ```bash
-$ pip install --force-reinstall --no-deps git+https://github.com/verri/evc@auto
+$ pip install --force-reinstall --no-deps git+https://github.com/verri/evc@main 
 ```
 
 ## Usage
